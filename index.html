@@ -1,0 +1,153 @@
+<!--
+  AutoElectric_Kampala.html
+  Single-file webpage for an Auto Electric Technician in Kampala.
+  IMPORTANT: Replace the PHONE constants below with your real number (in international format without + or leading zeros for WhatsApp link: e.g. 256701234567)
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Auto Electric Technician — Kampala</title>
+  <meta name="description" content="Experienced Auto Electric Technician in Kampala — diagnostics, alternators, starters, wiring, ECU repair and installations. Fast, reliable, warranty-backed service.">
+  <style>
+    :root{--accent:#0f766e;--accent-2:#06b6d4;--bg:#f7fafc;--card:#ffffff;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial; margin:0; background:linear-gradient(180deg, #f8fafc 0%, var(--bg) 100%); color:#0f172a}
+    .container{max-width:980px;margin:36px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px}
+    h1{margin:0;font-size:16px}
+    p.lead{margin:8px 0 0;color:var(--muted)}
+    .hero{background:var(--card);padding:22px;border-radius:14px;box-shadow:0 6px 18px rgba(15,23,42,0.06);display:flex;gap:22px;align-items:center;margin-top:18px}
+    .hero .left{flex:1}
+    .hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn-primary{background:var(--accent);color:white}
+    .btn-chat{background:transparent;border:2px solid var(--accent);color:var(--accent)}
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:18px}
+    .card{background:var(--card);padding:14px;border-radius:12px;box-shadow:0 4px 12px rgba(2,6,23,0.04)}
+    ul{padding-left:18px;margin:10px 0}
+    .muted{color:var(--muted);font-size:14px}
+    footer{margin-top:18px;text-align:center;color:var(--muted)}
+    .highlight{color:var(--accent);font-weight:700}
+    .badge{display:inline-block;background:#ecfeff;color:#055e66;padding:6px 10px;border-radius:999px;font-weight:700}
+    @media (max-width:700px){.hero{flex-direction:column;align-items:flex-start}.logo{width:56px;height:56px}}
+  </style>\head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">NBAE</div>
+        <div>
+          <div style="font-size:33px;font-weight:700">Auto ElectraFix Service — Kampala</div>
+          <div class="muted">Trusted vehicle electrical repairs • On-site & workshop</div>
+        </div>
+      </div>
+      <div style="text-align:right">
+        <div class="badge">Fast Diagnostics • Honest Pricing</div>
+        <div class="muted" style="margin-top:6px">Available 7 days • Emergency calls</div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="left">
+        <h1>Nassanga Babirye the Auto Electric Technician</h1>
+        <p class="lead">I restore your vehicle's electrical life — starters, alternators, batteries, wiring, ECU & sensor work. Precision diagnostics, durable repairs, and a customer-first guarantee.</p>
+
+        <div class="cta">
+          <!-- Replace PHONE_NUMBER below with your phone number in international format without plus. e.g. 256701234567 -->
+          <script>const PHONE_NUMBER = '256765693547'; const DISPLAY_PHONE = '+256 765693547';</script>
+          <a id="waLink" class="btn btn-primary" href="#">WhatsApp / Call: <span id="dispPhone">+256 7XX XXX XXX</span></a>
+          <a class="btn btn-chat" href="#contact">Request a Quote</a>
+        </div>
+
+        <div style="margin-top:12px" class="muted">Services include: <span class="highlight">Diagnostics</span>, <span class="highlight">Wiring repairs</span>, <span class="highlight">Alternator & starter rebuilds</span>, <span class="highlight">Battery systems</span>, <span class="highlight">ECU & sensors</span>.</div>
+      </div>
+      <div style="width:220px">
+        <div class="card" style="text-align:center;padding:18px">
+          <div style="font-size:14px;color:var(--muted)">Location</div>
+          <div style="font-weight:800;margin-top:6px">Kampala, Uganda</div>
+          <div style="margin-top:10px" class="muted">Workshop visits and mobile service available</div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:18px">
+      <div class="services">
+        <div class="card">
+          <h3 style="margin-top:0">Rapid Diagnostics</h3>
+          <p class="muted">Advanced OBD scanning, live data reading, and fast root-cause analysis so we fix it right first time.</p>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Electrical Repairs</h3>
+          <p class="muted">Wiring, short repairs, fusebox work, lighting systems and custom harnesses for any vehicle make.</p>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Charging & Starting</h3>
+          <p class="muted">Alternator testing & rebuild, starter diagnostics and battery health checks with replacement options.</p>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">ECU & Sensors</h3>
+          <p class="muted">Sensor replacement, ECU calibration and fault code resolution to restore performance and economy.</p>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:18px">
+      <div class="card">
+        <h3 style="margin-top:0">Why clients choose me</h3>
+        <ul>
+          <li><strong>Proven skill:</strong> Years of hands-on experience on domestic and imported vehicles.</li>
+          <li><strong>Transparent pricing:</strong> No hidden fees — written quotes before work begins.</li>
+          <li><strong>Quality parts:</strong> I use trusted components and offer a workmanship guarantee.</li>
+          <li><strong>Mobile-friendly:</strong> I can come to your location in Kampala for roadside repairs.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:18px;display:grid;grid-template-columns:1fr;gap:12px">
+      <div class="card">
+        <h3 style="margin-top:0">Contact & Bookings</h3>
+        <p class="muted">Call or WhatsApp to book an inspection or request an emergency visit.</p>
+        <p style="font-size:18px;margin:8px 0;font-weight:700" id="phoneDisplay">+256 7XX XXX XXX</p>
+
+        <form onsubmit="event.preventDefault(); alert('Thanks! We will contact you on WhatsApp or phone.');" style="display:flex;flex-direction:column;gap:8px">
+          <input placeholder="Your name" required style="padding:10px;border-radius:8px;border:1px solid #e6edf0">
+          <input placeholder="Vehicle make & model" required style="padding:10px;border-radius:8px;border:1px solid #e6edf0">
+          <textarea placeholder="Short description of the problem" rows="3" style="padding:10px;border-radius:8px;border:1px solid #e6edf0"></textarea>
+          <button type="submit" class="btn btn-primary">Send Request</button>
+        </form>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-top:0">Quick pitch</h3>
+        <p class="muted">I'm a detail-driven auto electric technician who treats every vehicle like my own. Whether it's a flickering dash, a battery draining overnight, or an ECU throwing intermittent faults — I diagnose precisely, explain clearly, and repair durably.</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="muted">© <span id="year"></span> Auto Electric Technician — Kampala • Proudly serving drivers across the city</div>
+    </footer>
+  </div>
+
+  <script>
+    // --- Update the visible phone and links. Replace PHONE_NUMBER and DISPLAY_PHONE values in the top script if you want to customize.
+    try{
+      const topScript = document.querySelector('script');
+      // Attempt to read constants defined in the earlier inline script; if not present, fallback to example values.
+      const PHONE = (typeof PHONE_NUMBER !== 'undefined') ? PHONE_NUMBER : '256765693547';
+      const DISPLAY = (typeof DISPLAY_PHONE !== 'undefined') ? DISPLAY_PHONE : '+256 765693547';
+      const wa = document.getElementById('waLink');
+      const disp = document.getElementById('dispPhone');
+      const phoneDisplay = document.getElementById('phoneDisplay');
+      disp.textContent = DISPLAY;
+      phoneDisplay.textContent = DISPLAY;
+      // WhatsApp link (international number without + and leading zeros). If you keep placeholder, link won't work until you replace it.
+      wa.href = 'https://wa.me/' + PHONE + '?text=' + encodeURIComponent('Hello, I need auto electrical help.');
+    }catch(e){console.warn(e)}
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
